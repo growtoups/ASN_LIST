@@ -1,6 +1,8 @@
 # Hosting Companies ASN LIST
 This ASN / IP Ranges list is really useful because it gives companies (ex: hosts) the possibility of blocking IP ranges / Certains ISP which could be used to ddos ​​your servers. (ps you need to use cloudflare)
 
+Y'all may have seen that i didnt do any update lately on the github. well its because im lacking time but im going to start re updating them with more and more ASN
+
 If you want to help me with this list send me a list of asn / ip ranges or just ips that was / is ddosing you & i'll add it to list when i'll have time! 
 ```! Growtoups | micium.cloud#4829```
 
