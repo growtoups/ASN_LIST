@@ -1,12 +1,18 @@
-# Hosting Companies ASN LIST
-This ASN / IP Ranges list is really useful because it gives companies (ex: hosts) the possibility of blocking IP ranges / Certains ISP which could be used to ddos ​​your servers. (ps you need to use cloudflare)
+# Blocking Hosts by ASN and IP Ranges
+This repository contains a list of Autonomous System Numbers (ASN) and IP address ranges that can be used to block malicious hosts to prevent DDoS attacks on your service. The list is updated regularly and can be used with Cloudflare's Web Application Firewall (WAF) to block traffic from these sources.
 
-Y'all may have seen that i didnt do any update lately on the github. well its because im lacking time but im going to start re updating them with more and more ASN
+# Getting Started
+To use this list with Cloudflare's WAF, follow these steps:
 
-If you want to help me with this list send me a list of asn / ip ranges or just ips that was / is ddosing you & i'll add it to list when i'll have time! 
-```! Growtoups | micium.cloud#4829```
+Clone or download this repository to your local machine.
+Edit the ```ASN.txt``` & ```IP-RANGES.txt``` file to include the ASNs and IP ranges that you want to block.
+Log in to your Cloudflare account and navigate to your firewall settings.
+Click on "Firewall Rules" and then "Create Firewall Rule".
+Choose the appropriate trigger(s) for your rule (e.g., "IP Addresses", "ASN").
+Paste the contents of ```ASN.txt``` & ```IP-RANGES.txt``` into the appropriate field(s).
+Save and deploy your firewall rules.
+# Contributing
+If you have ASNS or IP ranges that you would like to contribute to this repository, please open a pull request. All contributions are welcome and greatly appreciated.
 
-# How to add this list to my cloudflare firewall?
-
-
-https://user-images.githubusercontent.com/67888122/196012497-1e52eacb-93b5-44f9-9e57-d52fe6e34f27.mp4
+# Disclaimer
+This list is provided as-is and is not guaranteed to block all malicious hosts. It is intended as a starting point for building your own blocklist and should be used in conjunction with other security measures to protect your service. Use at your own risk.
