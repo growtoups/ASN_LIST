@@ -12,7 +12,7 @@ Choose the appropriate trigger(s) for your rule (e.g., "IP Addresses", "ASN").
 Paste the contents of ```ASN.txt``` & ```IP-RANGES.txt``` into the appropriate field(s).
 Save and deploy your firewall rules.
 # 🤝 Contributing
-If you have ASNS or IP ranges that you would like to contribute to this repository, please open a pull request. All contributions are welcome and greatly appreciated.
+If you have ASNs or IP ranges that you would like to contribute to this repository, please open a pull request. All contributions are welcome and greatly appreciated.
 
 # ❗ Disclaimer
 This list is provided as-is and is not guaranteed to block all malicious hosts. It is intended as a starting point for building your own blocklist and should be used in conjunction with other security measures to protect your service. Use at your own risk.
