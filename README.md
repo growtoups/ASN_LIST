@@ -1,4 +1,4 @@
-# 🚫 Blocking Hosts by ASN and IP Ranges
+# 🚫 Blocking Hosts by ASN
 This repository contains a list of Autonomous System Numbers (ASN) that can be used to block malicious hosts to prevent DDoS attacks on your service. The list is updated regularly and can be used with Cloudflare's Web Application Firewall (WAF) to block traffic from these sources.
 
 # 🚀 Getting Started
