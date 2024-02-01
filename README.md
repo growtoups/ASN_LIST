@@ -1,4 +1,3 @@
-```markdown
 # 🚫 Datacenter ASN Blocking
 This repository maintains a collection of Autonomous System Numbers (ASN) specifically for blocking datacenter ASNs, which can be instrumental in mitigating unwanted or non-human traffic to your service. Regularly updated, this list is compatible with Cloudflare's Web Application Firewall (WAF), allowing for efficient blocking of traffic from these datacenter sources.
 
@@ -21,4 +20,3 @@ This list is provided 'as is' and is not a comprehensive solution for blocking a
 
 # 🧑 Contributors
 Special thanks to [NorthernSide](https://github.com/Northernside) and all contributors focused on enhancing datacenter ASN blocking.
-```
