@@ -1,3 +1,6 @@
+# Warning
+Im not actively maintaining this repository im not going to maintain it anymore due to how asns databases works which makes it almost impossible to block all hosts asn without blocking residential isp without wasting so much hours verifying the potential host.
+
 # 🚫 Datacenter ASN Blocking
 This repository maintains a collection of Autonomous System Numbers (ASN) specifically for blocking datacenter ASNs, which can be instrumental in mitigating unwanted or non-human traffic to your service. Regularly updated, this list is compatible with Cloudflare's Web Application Firewall (WAF), allowing for efficient blocking of traffic from these datacenter sources.
 
